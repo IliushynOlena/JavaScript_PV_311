@@ -1,9 +1,14 @@
 //alert("Hello Java Script!!!")
 console.log("Hello JS from console")
 
-let number = 10.35;
-let email = "lena@gmail.com";
-let flag = true;
+let number = 10.35;//number
+let email = "lena@gmail.com";//string
+let flag = true;//boolean
+let array = [1,2,3]//object
+
+let empty;//undefined
+let nullObject = null;//null
+
 console.log(number);
 console.log(typeof(number));
 console.log(`Number = ${number}, type : ${typeof(number)}`);
@@ -15,16 +20,15 @@ email = false;
 console.log(`Number = ${number}, type : ${typeof(number)}`);
 console.log(`Email = ${email}, type : ${typeof(email)}`);
 
-let empty;//undefined
-let nullObject = null;//null
+
 console.log(`Empty = ${empty}, type : ${typeof(empty)}`);
 console.log(`Null Object = ${nullObject}, type : ${typeof(nullObject)}`);
 
-let array = [1,2,3]
 console.log(`array = ${array}, type : ${typeof(array)}`);
 
 let summ = function(a,b){console.log(`${a} + ${b} = ${a+b}`)}
-array = [10 ,57 ,'red','green', true, false,[11,21,111],summ]
+
+array = [10 ,57.3 ,'red','green', true, false,[11,21,111],summ]
 console.log(`array = ${array}, type : ${typeof(array)}`);
 console.log(`summ = ${summ}, type : ${typeof(summ)}`);
 console.log(array[3])
